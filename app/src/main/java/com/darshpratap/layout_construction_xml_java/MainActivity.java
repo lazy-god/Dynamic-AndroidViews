@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 secBtn = new Button(MainActivity.this);
 
+                //creating View Group dynamically
                 LinearLayout linearLayout = new LinearLayout(MainActivity.this);
 
                 RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(300, 400);
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
                         LinearLayout.LayoutParams.WRAP_CONTENT);
 
+                //creating view dynamically
                 secBtn.setLayoutParams(layoutParams);
                 secBtn.setText("New Btn");
 
