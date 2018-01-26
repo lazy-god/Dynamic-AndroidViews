@@ -43,9 +43,11 @@ public class MainActivity extends AppCompatActivity {
                 secBtn.setLayoutParams(layoutParams);
                 secBtn.setText("New Btn");
 
+
+                //adding view to view group first
                 linearLayout.addView(secBtn);
 
-
+                //adding view group to another view group
                 relativeLayout.addView(linearLayout);
             }
         });
