@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         relativeLayout = findViewById(R.id.container);
         button = findViewById(R.id.first_btn);
 
+        //set on click listener
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
